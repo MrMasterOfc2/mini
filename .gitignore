@@ -1,0 +1,8 @@
+node_modules/
+npm-debug.log
+session/
+*.env
+.DS_Store
+.vscode/
+*.session
+creds.json
