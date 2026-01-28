@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "npm install"
   },
   "keywords": [
     "whatsapp-bot",
@@ -26,7 +27,7 @@
     "express": "^4.19.2",
     "file-type": "^19.0.0",
     "fs-extra": "^11.2.0",
-    "jimp": "^0.22.12",
+    "jimp": "^1.6.0",
     "moment-timezone": "^0.5.45",
     "node-fetch": "^3.3.2",
     "pino": "^9.2.0",
