@@ -1,3 +1,4 @@
+// pair.js එකේ මුලින්ම
 const express = require('express');
 const fs = require('fs-extra');
 const path = require('path');
@@ -24,7 +25,9 @@ const {
     prepareWAMessageMedia,
     generateWAMessageFromContent,
     S_WHATSAPP_NET
-} = require('baileys');
+} = require('@whiskeysockets/baileys'); // @whiskeysockets/baileys කියලා තිබිය යුතුයි
+
+// අනිවාර්යයෙන්ම අනෙක් අයිතමයන් සමඟ පැවතිය යුතුයි...
 
 const config = {
     AUTO_VIEW_STATUS: 'true',
