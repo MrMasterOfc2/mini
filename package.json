@@ -1,41 +1,50 @@
 {
-  "name": "RAVIYA-MD",
+  "name": "sula-md-bot",
   "version": "1.0.0",
-  "description": "RAVIYA-MD WhatsApp Bot with Multi-Number Support",
+  "description": "SULA-MD WhatsApp Bot - Free Multi-device Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "baileys": "npm:baileys-dtz",
-    "express": "^4.18.2",
-    "fs-extra": "^11.2.0",
-    "pino": "^8.17.0",
-    "jimp": "^0.16.1",
-    "@octokit/rest": "^20.0.2",
-    "child_process": "^1.0.2",
-    "denethdev-ytmp3":"1.0.3",
-    "cheerio": "1.1.0",
-    "ruhend-scraper": "9.0.1",
-    "yt-search": "2.12.1",
-    "node-fetch": "3.3.2",
-    "path": "^0.12.7",
-    "fs": "0.0.1-security",
-    "file-type": "21.0.0",
-    "axios": "^1.2.5",
-    "moment-timezone": "^0.6.0"
-  },
-  "engines": {
-    "node": ">=18.x"
-  },
   "keywords": [
-    "whatsapp",
-    "bot",
-    "multi-device",
+    "whatsapp-bot",
     "baileys",
+    "multi-device",
     "sula-md"
   ],
-  "author": "𝚂𝚄𝙻𝙰𝙺𝚂𝙷𝙰 𝙼𝙰𝙳𝙰𝚁𝙰",
-  "license": "©𝚂𝚄𝙻𝙰 𝙼𝙳 𝙵𝚁𝙴𝙴 𝙼𝙸𝙽𝙸 𝙱𝙰𝚂𝙴" //𝙳𝙾𝙽𝚃 𝚁𝙴𝙼𝙾𝚅𝙴 𝙲𝚁𝙴𝙳𝙸𝚃𝙴𝚂 
+  "author": "Sulakshana Madara",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0",
+    "crypto": "^1.0.1",
+    "express": "^4.19.2",
+    "file-type": "^19.0.0",
+    "fs-extra": "^11.2.0",
+    "jimp": "^0.22.12",
+    "moment-timezone": "^0.5.45",
+    "node-fetch": "^3.3.2",
+    "pino": "^9.2.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Raviya-cmd/Ravi.md.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Raviya-cmd/Ravi.md/issues"
+  },
+  "homepage": "https://github.com/Raviya-cmd/Ravi.md#readme"
 }
